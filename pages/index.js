@@ -56,7 +56,7 @@ export default function Home(props) {
               </span>
               </td>
             <td>{formatDollar(coin.current_price, 20)}</td>
-            <td>{coin.low_24h}</td>
+            <td>{formatDollar(coin.low_24h)}</td>
             <td>
                 
               {formatterUS.format(coin.max_supply)}

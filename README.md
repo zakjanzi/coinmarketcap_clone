@@ -9,3 +9,4 @@ To do:
 - Less padding (2%)
 - Green/Red update
 - SSR
+- Pagination

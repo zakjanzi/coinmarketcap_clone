@@ -1,5 +1,5 @@
 {
-  "name": "coinmarketcap_clonev2",
+  "name": "cyptocurrency_dashboard",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,18 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
-    "@types/node": "18.16.0",
-    "@types/react": "18.0.38",
-    "@types/react-dom": "18.0.11",
     "axios": "^1.3.6",
-    "coingecko-api": "^1.0.10",
-    "eslint": "8.39.0",
-    "eslint-config-next": "13.3.1",
+    "cors": "^2.8.5",
+    "cryptocompare-api": "^1.0.2",
+    "dotenv": "^16.0.3",
     "next": "13.3.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint": "8.39.0",
+    "eslint-config-next": "13.3.1"
   }
 }

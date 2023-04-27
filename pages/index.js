@@ -40,9 +40,9 @@ export default function Home() {
           <tr>
             <th>Symbol</th>
             <th>Name</th>
-            <th>Price</th>
+            <th>Price ($)</th>
             <th>24H Change</th>
-            <th>Marketcap</th>
+            <th>Marketcap ($)</th>
           </tr>
         </thead>
         <tbody>
@@ -60,11 +60,11 @@ export default function Home() {
                <td>
                {FullName}
                </td>
-                <td>{USD.PRICE.toLocaleString(undefined, {minimumFractionDigits: 2})}</td>
+                <td>$ {USD.PRICE.toLocaleString(undefined, {minimumFractionDigits: 2})}</td>
                 <td className={CHANGEPCT24HOUR >= 0 ? styles.green : styles.red}>
                   {CHANGEPCT24HOUR.toFixed(2)}%
                 </td>
-                <td>{MKTCAP.toLocaleString()}</td>
+                <td>$ {MKTCAP.toLocaleString()}</td>
               </tr>
             );
           })}

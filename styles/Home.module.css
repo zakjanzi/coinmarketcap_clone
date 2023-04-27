@@ -108,6 +108,19 @@
   margin-left: 0.5rem;
 }
 
+
+.green {
+  color: #2384b1;
+}
+
+.red {
+  color: #FB667A;
+}
+
+.symbol  {
+  width: 100px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
